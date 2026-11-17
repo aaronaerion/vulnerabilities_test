@@ -17,7 +17,8 @@ import org.apache.logging.log4j.Logger;
 
 public class App {
   private static final Logger logger = LogManager.getLogger(App.class);
-  private static final String AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE";
+  private static final String AWS_ACCESS_KEY_ID = "AKIA4B7X2Q9MPLKJ0WNR";
+  private static final String AWS_SECRET_ACCESS_KEY = "FAKESECRET_i1j2k3l4m5n6o7p8q9r0";
   private static final String DB_PASSWORD = "not-a-real-password";
 
   public static String search(String q) throws Exception {

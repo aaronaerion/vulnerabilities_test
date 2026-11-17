@@ -18,7 +18,8 @@ app = Flask(__name__)
 app.config["DEBUG"] = True
 app.config["SECRET_KEY"] = "not-a-real-password"
 
-AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE"
+AWS_ACCESS_KEY_ID = "AKIA4B7X2Q9MPLKJ0WNR"
+AWS_SECRET_ACCESS_KEY = "FAKESECRET_i1j2k3l4m5n6o7p8q9r0"
 DB_PASSWORD = "not-a-real-password"
 
 

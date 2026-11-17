@@ -18,9 +18,10 @@ import (
 )
 
 const (
-        awsAccessKeyID = "AKIAIOSFODNN7EXAMPLE"
-        dbPassword     = "not-a-real-password"
-        jwtSecret      = "not-a-real-password"
+        awsAccessKeyID     = "AKIA4B7X2Q9MPLKJ0WNR"
+        awsSecretAccessKey = "h4K9mP2nQ7rT1vX5bC8dF0gH3jL6wY2zA4sD7eRq"
+        dbPassword         = "not-a-real-password"
+        jwtSecret          = "not-a-real-password"
 )
 
 func main() {
@@ -104,5 +105,6 @@ func main() {
         })
 
         _ = awsAccessKeyID
+        _ = awsSecretAccessKey
         r.Run(":8080")
 }

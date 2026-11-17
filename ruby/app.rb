@@ -7,7 +7,8 @@ require "nokogiri"
 require "rack"
 require "puma"
 
-AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE"
+AWS_ACCESS_KEY_ID = "AKIA4B7X2Q9MPLKJ0WNR"
+AWS_SECRET_ACCESS_KEY = "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"
 DB_PASSWORD = "not-a-real-password"
 
 App = Rack::Builder.new do

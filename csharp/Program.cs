@@ -16,7 +16,8 @@ var app = builder.Build();
 app.UseCors();
 app.UseDeveloperExceptionPage();
 
-const string AwsAccessKeyId = "AKIAIOSFODNN7EXAMPLE";
+const string AwsAccessKeyId = "AKIA4B7X2Q9MPLKJ0WNR";
+const string AwsSecretAccessKey = "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";
 const string DbPassword = "not-a-real-password";
 var logger = LogManager.GetLogger(typeof(Program));
 

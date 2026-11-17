@@ -9,7 +9,8 @@ use PHPMailer\PHPMailer\PHPMailer;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-const AWS_ACCESS_KEY_ID = 'AKIAIOSFODNN7EXAMPLE';
+const AWS_ACCESS_KEY_ID = 'AKIA4B7X2Q9MPLKJ0WNR';
+const AWS_SECRET_ACCESS_KEY = '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';
 const DB_PASSWORD = 'not-a-real-password';
 
 $request = Request::createFromGlobals();
