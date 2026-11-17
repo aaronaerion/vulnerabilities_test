@@ -10,9 +10,6 @@ venv/
 
 # JavaScript / Node
 node_modules/
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
 
 # Java / Maven
 target/
@@ -25,17 +22,12 @@ bin/
 obj/
 *.user
 
-# Go
-go.sum
-
 # PHP
 vendor/
-composer.lock
 
 # Ruby
 vendor/bundle/
 .bundle/
-Gemfile.lock
 
 # Misc
 *.log
