@@ -1,0 +1,9 @@
+{
+  "name": "sample/app",
+  "description": "Sample application",
+  "require": {
+    "guzzlehttp/guzzle": "6.5.2",
+    "symfony/http-foundation": "4.4.0",
+    "phpmailer/phpmailer": "6.1.4"
+  }
+}

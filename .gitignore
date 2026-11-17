@@ -1,0 +1,44 @@
+# Local answer key (do not commit)
+expected-findings.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# JavaScript / Node
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Java / Maven
+target/
+*.class
+.idea/
+*.iml
+
+# .NET
+bin/
+obj/
+*.user
+
+# Go
+go.sum
+
+# PHP
+vendor/
+composer.lock
+
+# Ruby
+vendor/bundle/
+.bundle/
+Gemfile.lock
+
+# Misc
+*.log
+.DS_Store
+.env
+.env.*
